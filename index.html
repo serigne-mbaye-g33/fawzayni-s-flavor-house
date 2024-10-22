@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Fictif</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Fawzayni's flavor house</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">À propos de nous</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <style>
+            .navbar-light .navbar-brand{
+                color: red;
+                font-size: 30px;
+            }
+        </style>
+    </header>
+
+    <section class="hero" style="background-image: url(dt.jpg)">
+        <div class="container text-center text-white">
+            <h1>welcome to our restaurant</h1>
+            <a href="#menu" class="btn btn-primary">Voir le Menu</a>
+        </div>
+    </section>
+
+
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Notre Menu</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="cb.jpg" class="card-img-top" alt="cheeseburger">
+                        <div class="card-body">
+                            <h4 style="color: green;" class="card-title">cheeseburger</h4>
+                            <p class="card-text">
+                                Un cheeseburger est un sandwich composé d'un pain hamburger, d'un steak haché (souvent de bœuf), de fromage (généralement du fromage cheddar), ainsi que de divers ingrédients</p>
+                            <p class="card-text"><strong>Prix: 3000fr</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="sb.jpg" class="card-img-top" alt="spaghetti bolognaise">
+                        <div class="card-body">
+                            <h4 style="color: green;" class="card-title">spaghetti bolognaise</h4>
+                            <p class="card-text">
+                                Le spaghetti bolognaise est un plat de pâtes italien qui se compose de spaghetti, généralement servis avec une sauce à la viande appelée "ragù alla bolognese". Cette sauce est préparée à base de viande hachée (souvent un mélange de bœuf et de porc), d'oignons, de carottes, de céleri, de tomates, de vin rouge et d'herbes aromatiques</p>
+                            <p class="card-text"><strong>Prix:4000fr</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="p.jpg" class="card-img-top" alt="pizza">
+                        <div class="card-body">
+                            <h4 style="color: green;" class="card-title">pizza</h4>
+                            <p class="card-text">La pizza est composée d'une pâte à pain garnie de sauce tomate, de fromage et d'une variété d'ingrédients comme des légumes, des viandes ou des fruits de mer. Elle est cuite au four et se déguste chaude</p>
+                            <p class="card-text"><strong>Prix:3500fr</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="mf.jpg" class="img-fluid" alt="À propos de nous">
+                </div>
+                <div class="col-md-6">
+                    <h2>À propos de nous</h2>
+                    <p>Notre restaurant propose des plats faits maison préparés avec des ingrédients frais et de qualité. Nous sommes passionnés par la cuisine et souhaitons partager cette passion avec vous.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contactez-nous</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Restaurant Fictif. Tous droits réservés.</p>
+        <div>
+            <a href="#" class="btn btn-outline-primary">Facebook</a>
+            <a href="#" class="btn btn-outline-primary">Instagram</a>
+            <a href="#" class="btn btn-outline-primary">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
